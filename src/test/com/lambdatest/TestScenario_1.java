@@ -35,8 +35,8 @@ public class TestScenario_1 {
         capabilities.setCapability("tunnel", false);
 
         HashMap<String, Object> ltOptions = new HashMap<>();
-        ltOptions.put("user", "topennms");
-        ltOptions.put("accessKey", "hBpdTFnFrRNrweezqtnpr4xer9eUImuRnza3m27HgUFVIgVgaU");
+        ltOptions.put("user", "gudaabhinav9");
+        ltOptions.put("accessKey", "49cuEhTsWWqAACK8SuzBEOxA0jm4ik3KdZNzsAfcivfcsAgs7c");
 
         capabilities.setCapability("LT:Options", ltOptions);
 

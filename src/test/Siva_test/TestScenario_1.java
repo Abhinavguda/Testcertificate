@@ -35,8 +35,8 @@ public class TestScenario_1 {
         capabilities.setCapability("tunnel", false);
 
         HashMap<String, Object> ltOptions = new HashMap<>();
-        ltOptions.put("user", "mullurisiva");
-        ltOptions.put("accessKey", "CVLrm6ctyWxpw2X8o6UvHnU95mSj8lD3nRwuppMvevK68UWlkl");
+        ltOptions.put("user", "gudaabhinav9");
+        ltOptions.put("accessKey", "49cuEhTsWWqAACK8SuzBEOxA0jm4ik3KdZNzsAfcivfcsAgs7c");
 
         capabilities.setCapability("LT:Options", ltOptions);
 
@@ -49,7 +49,6 @@ public class TestScenario_1 {
         try {
         	
             driver.get("https://www.lambdatest.com/selenium-playground");
-            
             driver.findElement(By.linkText("Simple Form Demo")).click();
 
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
